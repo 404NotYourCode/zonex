@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZoneX - Phishing URL Scanner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <img src="https://github.com/404NotYourCode/zonex/blob/main/Logo_1.png?raw=true" alt="ZoneX Logo" />
+      <h1>🛡️ ZoneX</h1>
+      <p class="subtext">A secure sandbox to scan and analyze suspicious URLs</p>
+    </header>
+
+    <section>
+      <input type="text" id="url" placeholder="Paste suspicious URL here..." />
+      <button onclick="checkURL()">Scan Now</button>
+      <p id="result"></p>
+    </section>
+
+    <section>
+      <form action="https://formspree.io/f/xqalyvyg" method="POST">
+        <h2>💬 Feedback</h2>
+        <textarea name="message" placeholder="Leave your feedback here..." required></textarea>
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      🚀 Built by <strong>Team ZoneX</strong> |
+      <a href="https://github.com/your-username/zonex" target="_blank">View on GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
